@@ -21,6 +21,8 @@ function openUserModal() {
     if (isEscapeKey(evt)) {
       evt.preventDefault();
       imageUpload.classList.add('hidden');
+      resetEffects();
+      resetScale();
     }
   });
 }
